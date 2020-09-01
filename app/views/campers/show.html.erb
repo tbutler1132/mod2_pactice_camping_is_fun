@@ -1,0 +1,6 @@
+<%= @camper.name %><br>
+<%= @camper.age %><br>
+Camper Activties:<br>
+<% @camper.activities.each do |a| %>
+    <%= a.name %> <br>
+<% end %>
